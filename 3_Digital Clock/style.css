@@ -1,5 +1,13 @@
 body{
     background-color: #AFB1B3;
     color: #fff;
-    
 }
+
+#clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
