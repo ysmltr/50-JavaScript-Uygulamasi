@@ -7,7 +7,66 @@ body{
     text-align: center;
     width: 50%;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 25%;
 }
 
+
+#clock h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+
+  .clock-items{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    margin: 3%;
+    padding: 6px;
+    width: 42%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+  }
+
+
+
+  .clock-items p{
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+  }
+  p{
+    text-align: center;
+  }
+
+  #date{
+    font: 20px;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+
+
+
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: #6E8376;
+        color: antiquewhite;
+    }
+
+    .clock-items{
+        background-color: #9F9B8F;
+        color: #891B1B;
+    }
+    
+}
