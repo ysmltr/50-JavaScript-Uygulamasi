@@ -1,0 +1,14 @@
+*{
+    font-family: 'Sassy Frass', cursive;
+}
+
+
+button {
+    margin-top: 50vh;
+    color:black;
+    background-color: aliceblue;
+}
+button:hover{
+    color:whitesmoke;
+    background-color: aliceblue;
+}

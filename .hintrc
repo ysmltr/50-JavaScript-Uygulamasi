@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 109",
+    "not chrome <= 109",
+    "not samsung <= 19",
+    "not edge <= 109",
+    "not firefox <= 109",
+    "not safari <= 16.3"
+  ]
+}
