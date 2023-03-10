@@ -26,65 +26,57 @@
                                     <p>Weight (kg)</p>
                                 </div><!--col-md-3 bitis divi p ye ait col-md-->
                                 <div class="col-md-9">
-                                    <input type="number"  id="weight" class="form-control">
+                                    <input type="number"  id="weight" class="form-control" placeholder="69">
                                 </div><!--col-md-6 divi 6 degisebilir icine weight icin input koyucaz--->
                             </div><!-- col-md-3 weight row bitis divi-->
                             <div class="row">
                                 <div class="col-md-3">
                                     <p>Height</p></div><!--col-md-3 height bitis divi p ye ait col-md-->
                                     <div class="col-md-9">
-                                        <input type="number" id="height" class="form-control">
+                                        <input type="number" id="height" class="form-control" placeholder="169">
                                     </div><!--col-md-6 divi 6 degisebilir icine height icin input koyucaz--->
                             </div><!-- col-md-3 height row bitis divi-->
                             <div class="row">
                                 <div class="col-md-6">
-                                    <button class="btn btn-primary btn-block">Calculate</button>
+                                    <button class="btn btn-primary btn-block" onclick="CalculateBMI();" type="submit">Calculate</button>
                                 </div><!--col-md-6 divi 6 degisebilir icine calculate icin button koyucaz--->
                                 <div class="col-md-6">
-                                    <button class="btn btn-danger btn-block">Reset</button>
+                                    <button class="btn btn-danger btn-block" onclick="Reset();" type="reset">Reset</button>
                                 </div><!--col-md-6 divi 6 degisebilir icine reset icin button koyucaz--->
                             </div><!--button row bitis divi calculate-reset icin-->
                            
-                                
-                            
                         </div><!--bmi-calculator bitis divi-->
+                        <div id="bmi-result">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p id="result">24</p>
+                                    <p id="result-status">Normal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bmi-info">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <p>< 18.5</p>
+                                    <p>Under weight</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p>18.5-24</p>
+                                    <p>Normal</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p>24-30</p>
+                                    <p>Over weight</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <p>>30</p>
+                                    <p>Obese</p>
+                                </div>
+                            </div>
+                        </div>
                     </div><!--bmi-box bitis divi-->
                     
                 </div><!--container bitis div'i-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
